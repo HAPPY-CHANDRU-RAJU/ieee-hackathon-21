@@ -1,0 +1,129 @@
+body{
+    margin: 0px;
+}
+.NavBarMain{
+    overflow: hidden;
+    background-color: #0D1939;
+}
+.NavBar{
+    background-color: #454E66;
+    overflow: hidden;
+}
+.navLiLeft ul li{
+    float: left;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.navLiRight ul li{
+    float: right;
+    padding: 10px 15px;
+    list-style: none;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navLiLeft ul{
+    margin: 0;
+    padding: 5;
+}
+
+.navLiRight ul{
+    margin: 0;
+    padding: 5;
+}
+
+.NavBar ul li:hover{
+    background-color:#E34C26 ;
+    color: rgb(0, 0, 0);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.brand{
+    padding: 10px 25px;
+    margin: 5px;
+    font-size: 46px;
+    color: white;
+    display: inline-block;
+    line-height: 1px;
+    height: 62px;
+}
+
+/* .search{
+    display: inline-block;
+} */
+
+/* .search input{
+    width: 300px;
+    border-radius: 20px;
+    height: 30px;
+} */
+
+.brand p::first-line{
+    display: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.App{
+    width: 100%;
+    height: 550px;
+    background-image: url(https://images.unsplash.com/photo-1534387094193-c7511d80ccfe?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+
+}
+
+/* footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    text-align: center;
+    background-color: black;
+    text-align: center;
+    color: white;
+} */
+
+.AppGif img{
+    border-radius: 100%;
+    width: 500px;
+}
+
+.AppGif{
+    position:relative;
+    top: 120px;
+    left: 66px;
+    width: 95%;
+}
+
+.FormDiv{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.87);
+    text-align: center;
+    width: 500px;
+    position:relative;
+    top: 120px;
+    left: 120px;
+    top: -171px;
+    left: 606px;
+}
+
+.downloadBox{
+    align-items: center;
+}
+
+.FormDiv input{
+    height: 26px;
+    width: 298px;
+    border: none;
+    border-radius: 10px
+}
